@@ -11,4 +11,4 @@ WIN_EXECUTABLE="C:\Program Files\MATLAB\R2021b\bin\matlab.exe"
 CATEGORIES="Office"
 
 # GNOME mimetypes
-MIME_TYPES="application/matlab-mat;application/x-matlab-data ;text/x-matlab;"
+MIME_TYPES="application/matlab-mat;application/x-matlab-data;text/x-matlab;"

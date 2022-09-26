@@ -25,6 +25,8 @@ Please run "./bin/installer.sh --system --uninstall" first.'
 
 _wa_install() {
     ${SUDO} mkdir -p "${SYS_PATH}/apps"
+    ${SUDO} touch "${SYS_PATH}/run"
+    sleep 2
     source "${script_path}/winapps" install
 }
 
